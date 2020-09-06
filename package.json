@@ -1,0 +1,40 @@
+{
+  "name": "spotify-wrapper",
+  "version": "1.0.0",
+  "description": "A wrapper to work with Spotify Web API",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint src/*.js",
+    "prepush": "yarn lint",
+    "test": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register",
+    "test:tdd": "./node_modules/.bin/mocha tests/**/*.spec.js --require babel-register  --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arroiz/tdd-with-js.git"
+  },
+  "keywords": [
+    "tdd",
+    "js",
+    "library",
+    "spotify"
+  ],
+  "author": "Marcos Taron <marcosvtd@gmail.com> (https://www.github.com/arroiz)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arroiz/tdd-with-js/issues"
+  },
+  "homepage": "https://github.com/arroiz/tdd-with-js#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "husky": "^4.2.5",
+    "mocha": "^8.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
