@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arroiz/tdd-with-js.git"
+    "url": "git+https://github.com/arroiz/spotify-wrapper"
   },
   "keywords": [
     "tdd",
